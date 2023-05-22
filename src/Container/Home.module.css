@@ -1,0 +1,82 @@
+.father {
+    display: block;
+    height: auto;
+    width: 100hv;
+}
+.father .titulo_principal{
+    width: 100%;
+    height: 50px;
+    color: #333;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.father .container{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    border: 2px solid #000;
+    margin-bottom: 50px;
+}
+.container .img_curso{
+    width: 40%;
+    height: 100%;
+}
+.img_curso img{
+    width: 100%;
+    height: 100%;
+}
+.container .contenido_curso{
+    width: 60%;
+    height: 100%;
+}
+.contenido_curso .person{
+   display: flex;
+   border-bottom: 1px solid #000;
+}
+.person b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.contenido_curso .contHome{
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+.contHome h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contHome p{
+    margin: 20px;
+    font-size: 20px;
+    color: #333;
+}
+.contenido_curso .intro{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.intro button{
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20%;
+}
+.intro button:hover{
+    scale: 1.1;
+    color: #333;
+    background-color: aliceblue;
+    transition: 1.2s;
+}
+.intro img{
+    padding: 20px;
+}
+

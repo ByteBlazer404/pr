@@ -1,0 +1,19 @@
+.final{
+    width: 100hv;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+}
+.final .contacto{
+    width: 30%;
+    height: 100%;
+}
+.contacto li{
+    display: inline;
+    padding: 40px;
+}
+.final .registroMail{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
